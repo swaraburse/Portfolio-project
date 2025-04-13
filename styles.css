@@ -31,21 +31,6 @@ html{
     scroll-behavior: smooth;
 }
 
-/* ----- CHANGE THE SCROLL BAR DESIGN ----- */
-::-webkit-scrollbar{
-    width: 10px;
-    border-radius: 25px;
-}
-::-webkit-scrollbar-track{
-    background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb{
-    background: #ccc;
-    border-radius: 30px;
-}
-::-webkit-scrollbar-thumb:hover{
-    background: #bbb;
-}
 
 
 /* ---##-- REUSABLE CSS --##--- */
@@ -367,9 +352,9 @@ h3{
 .project-container{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content:space-around ;
     gap: 10px;
-    flex-wrap: wrap;
+    align-items: center;
 }
 .project-box{
     position: relative;
