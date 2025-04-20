@@ -222,19 +222,22 @@ nav{
     align-content: center;
     min-height: 80vh;
     width: 50%;
+    
 }
 .image{
     margin: auto 0;
     width: 380px;
-    height: 380px;
-    border-radius: 55% 45% 55% 45%;
+    height: 390px;
+    
+    border-radius: 55% 55% 55% 55%;
     overflow: hidden;
-    animation: imgFloat 7s ease-in-out infinite;
+    /* animation: imgFloat 7s ease-in-out infinite; */
 }
 .image img{
     width: 380px;
-    height: 380px;
+    height: 400px;
     object-fit: cover;
+    
 }
 @keyframes imgFloat {
     50%{
